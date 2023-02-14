@@ -29,11 +29,11 @@ body {
 
 .heart {
     position: absolute;
-    top: calc(50% - 100px);
-    left: calc(50% - 100px);
-    width: 200px;
+    top: calc(50% - 90px);
+    left: calc(50% - 90px);
+    width: 180px;
     margin: 0 auto;
-    height: 200px;
+    height: 180px;
     -webkit-transform: rotate(45deg);  /* для Chrome и Safari */
     -moz-transform: rotate(45deg); /* для Firefox */
     -o-transform: rotate(45deg); /* для Opera */
@@ -47,20 +47,20 @@ body {
 .heart:before, .heart:after {
     position:absolute;
     content: ' ';
-    -webkit-border-radius: 100px 0 0 100px;
-    -moz-border-radius: 100px 0 0 100px;
-    border-radius: 100px 0 0 100px;
-    width: 140px;
-    height: 200px;
+    -webkit-border-radius: 90px 0 0 90px;
+    -moz-border-radius: 90px 0 0 90px;
+    border-radius: 90px 0 0 90px;
+    width: 134px;
+    height: 180px;
     border: solid 1px #FFC2CD;
     background-color: #FFC2CD;
     border-right: none;
-    left:-140px;
+    left:-135px;
 }
 .heart:after {
     position: absolute;
-    left: 30px;
-    top: -170px;
+    left: 23px;
+    top: -158px;
     transform: rotate(90deg);
 }
 
@@ -95,21 +95,21 @@ body {
 
 #t1 {
     top: -10px;
-    left: -120px;
+    left: -100px;
 }
 
 #t2 {
     top: -10px;
-    left: -80px;
+    left: -65px;
 }
 
 #t3 {
     top: 30px;
-    left: -80px;
+    left: -70px;
 }
 
 #t4 {
-    left: -30px;
+    left: -26px;
     top: 20px;
 }
 
